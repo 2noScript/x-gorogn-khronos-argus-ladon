@@ -138,4 +138,4 @@ class XGorgon:
             gorgon.append(0)
         for i in range(0, 4):
             gorgon.append(int(Khronos[2 * i: 2 * i + 2], 16))
-        return {'X-Gorgon': self.__main(gorgon), 'X-Khronos': str(int(Khronos, 16))}
+        return {'x-gorgon': self.__main(gorgon), 'x-khronos': str(int(Khronos, 16))}
